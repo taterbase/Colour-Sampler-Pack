@@ -535,12 +535,12 @@ else
     hi CursorLineNr guifg=#626262   guibg=#444444
     hi FoldColumn                   guibg=#4e4e4e
     hi Folded                       guibg=#4e4e4e
-    hi LineNr       guifg=#626262   guibg=#444444
+    hi LineNr       guifg=#767676  guibg=#444444
     hi PmenuSel                     guibg=#005f87
-    hi SignColumn                   guibg=#4e4e4e
+    hi SignColumn                   guibg=#303030
     hi StatusLineNC guifg=#444444
     hi TabLineFill  guifg=#444444
-    hi VertSplit    guifg=#626262
+    hi VertSplit    guifg=#b2b2b2
     hi WildMenu                     guibg=#005f87
     if s:contrast == "low"
         hi FoldColumn   guifg=#a8a8a8

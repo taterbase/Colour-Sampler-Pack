@@ -235,27 +235,30 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
     " Global
     call <SID>X("Normal", "000000", "ffffff", "")
-    call <SID>X("NonText", "438ec3", "b7dce8", "")
+    call <SID>X("NonText", "000000", "ffffff", "")
 
     " Search
     call <SID>X("Search", "800000", "ffae00", "")
     call <SID>X("IncSearch", "800000", "ffae00", "")
 
     " Interface Elements
+    call <SID>X("TabLineFill", "c0d9eb", "000000", "")
+    call <SID>X("TabLine", "4399eb", "c0d9eb", "bold")
+    call <SID>X("TabLineSel", "c0d9eb", "4399eb", "bold")
     call <SID>X("StatusLine", "ffffff", "43c464", "bold")
     call <SID>X("StatusLineNC", "9bd4a9", "51b069", "")
     call <SID>X("VertSplit", "3687a2", "3687a2", "")
     call <SID>X("Folded", "3c78a2", "c3daea", "")
     call <SID>X("IncSearch", "708090", "f0e68c", "")
     call <SID>X("Pmenu", "ffffff", "cb2f27", "")
-    call <SID>X("SignColumn", "", "", "")
+    call <SID>X("SignColumn", "000000", "ffffff", "")
     call <SID>X("CursorLine", "", "c0d9eb", "")
     call <SID>X("LineNr", "eeeeee", "438ec3", "bold")
     call <SID>X("MatchParen", "", "", "")
 
     " Specials
     call <SID>X("Todo", "e50808", "dbf3cd", "bold")
-    call <SID>X("Title", "000000", "", "")
+    call <SID>X("Title", "fd8900", "", "")
     call <SID>X("Special", "fd8900", "", "")
 
     " Syntax Elements
